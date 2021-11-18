@@ -1,6 +1,6 @@
 import {test as base} from '@playwright/test';
-import {BasePage} from "../../pages/basePage";
-import {Response} from "playwright-core";
+import {BasePage} from '../../pages/basePage';
+import {Response} from 'playwright-core';
 
 type TestFixtures = {
     login: null|Response

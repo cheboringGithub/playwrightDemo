@@ -1,5 +1,5 @@
-import {Page} from "@playwright/test";
-import {Locator} from "playwright";
+import {Page} from '@playwright/test';
+import {Locator} from 'playwright';
 
 export interface IElement extends Locator{
     description: string;

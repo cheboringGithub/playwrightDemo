@@ -1,5 +1,5 @@
-import {test} from "@playwright/test";
-import {PlaywrightDemoPage} from "../pages/playwrightDemoPage";
+import {test} from '@playwright/test';
+import {PlaywrightDemoPage} from '../pages/playwrightDemoPage';
 
 test.describe('Demo suite', () => {
 

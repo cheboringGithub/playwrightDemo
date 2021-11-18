@@ -1,7 +1,7 @@
-import {BasePage} from "./basePage";
-import {Page} from "@playwright/test";
-import {Actions} from "../helpers/actions";
-import {IElement} from "../helpers/elementHandler";
+import {BasePage} from './basePage';
+import {Page} from '@playwright/test';
+import {Actions} from '../helpers/actions';
+import {IElement} from '../helpers/elementHandler';
 
 export class PlaywrightDemoPage extends BasePage {
     constructor(page: Page) {
