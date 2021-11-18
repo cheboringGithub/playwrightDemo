@@ -1,5 +1,6 @@
-import {IElement} from "../pages/basePage";
+
 import test from "../services/fixtures/loginFixture";
+import {IElement} from "./elementHandler";
 
 interface typeOptions {
     force?: boolean,

@@ -1,4 +1,6 @@
-/* TODO:    -Add Linter
+/* TODO:
+            -Add Readme
+            -Add Linter
             -Add Husky
             -Add Allure reporter
             -Add logger
