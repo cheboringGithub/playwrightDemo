@@ -22,16 +22,16 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const playWrightConfig: PlaywrightTestConfig = {
-    use: {
-        screenshot: 'only-on-failure',
-        headless: false,
-        viewport: {
-            width: 1280,
-            height: 720
-        },
-        ignoreHTTPSErrors: true,
-        video: 'off',
+  use: {
+    screenshot: 'only-on-failure',
+    headless: false,
+    viewport: {
+      width: 1280,
+      height: 720,
     },
-    reporter: 'allure-playwright'
+    ignoreHTTPSErrors: true,
+    video: 'off',
+  },
+  reporter: 'allure-playwright',
 };
 export default playWrightConfig;
