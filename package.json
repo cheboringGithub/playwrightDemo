@@ -1,9 +1,28 @@
 {
+  "scripts": {
+    "clean": "rimraf ./allure-report & rimraf ./allure-results",
+    "pretest": "npm run clean",
+    "lint": "eslint src/**/*.ts --fix",
+    "allureReport": "allure generate allure-results --clean && allure open",
+    "test": "npx playwright test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
   "devDependencies": {
-    "@playwright/test": "^1.16.3"
+    "@playwright/test": "^1.16.3",
+    "allure-playwright": "^2.0.0-beta.14"
   },
   "dependencies": {
+    "@types/node": "^16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4",
     "playwright": "^1.16.3",
+    "rimraf": "^3.0.2",
     "typescript": "^4.4.4"
   }
 }

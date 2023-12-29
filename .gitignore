@@ -3,3 +3,7 @@
 
 ##IDEA
 /.idea
+
+##Allure
+/allure-results
+/allure-report
